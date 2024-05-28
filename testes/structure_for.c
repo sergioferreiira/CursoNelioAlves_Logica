@@ -8,10 +8,11 @@ int main()
     scanf("%i", &N);
 
     soma = 0;
-    for (i = 0; i < N; i++) {
+    for (i = 0; i < N;) {
         printf("Digite um numero: ");
         scanf("%i", &x);
         soma = soma + x;
+        i++;
     }
 
     printf("A soma dos valores e: %i", soma);
