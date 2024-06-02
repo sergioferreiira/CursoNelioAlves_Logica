@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1717367151 source:c:\users\sergio ferreira\desktop\development_c\soma_impares\main.c
+	<stdio.h>
+	<stdlib.h>
+
