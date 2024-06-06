@@ -19,10 +19,15 @@ int main()
         }
     }
 
+
     for(c = 0; c < mt; c++)
-    {
+    {      
         printf("%d ", mat[c][c]);
     }
+    printf("\n");
+
 
 }
+
+
 
