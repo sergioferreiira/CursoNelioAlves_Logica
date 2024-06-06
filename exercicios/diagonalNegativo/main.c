@@ -4,7 +4,7 @@ int main()
 {
     int l, c, mt;
 
-    printf("Quantas linhas e colunas vÃ£o ter a matriz? ");
+    printf("Quantas linhas e colunas vão ter a matriz? ");
     scanf("%d", &mt);
 
 
@@ -19,10 +19,13 @@ int main()
         }
     }
 
+
     for(c = 0; c < mt; c++)
     {
         printf("%d ", mat[c][c]);
     }
-
+    return 0;
 }
+
+
 
