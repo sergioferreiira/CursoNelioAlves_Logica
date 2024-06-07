@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1717719451 source:c:\users\sergio ferreira\desktop\development_c\exercicios\somalinhas\main.c
+	<stdio.h>
+	<stdlib.h>
+
