@@ -10,9 +10,29 @@
     <img src="https://github.com/sergioferreiira/LogicaCom_C/blob/main/img/curso.png" alt="Image Example" width="400px">
 </p>
 
-## Tech Stack
+## Teacher
+
+
+
+<p align="center" border-radius = 50%>
+    <img src='https://img-c.udemycdn.com/user/200_H/23896614_cac2_7.jpg' alt="Nelio Alves" link="https://www.udemy.com/user/nelio-alves/" style="border: 2px solid  gray; border-radius:50%">
+</p>
 
 <!--- # "Verify icons availability here https://github.com/tandpfun/skill-icons" -->
 
-[![My Skills](https://skillicons.dev/icons?i=python,java,c,cpp,cs)](https://skillicons.dev)
+<!-- [![My Skills](https://skillicons.dev/icons?i=python,java,c,cpp,cs)](https://skillicons.dev) -->
 
+## The goal
+
+Learning the logic about these languages and improve one step more to reach my main goal what is turn a developer.
+
+
+# ![My Skills](https://skillicons.dev/icons?i=c)
+
+
+
+- Data Types
+- Input / Output
+- While / For / Do-While
+- Vector / Matriz
+- Exercises using these teachings
