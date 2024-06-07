@@ -6,7 +6,7 @@
 
 # Course from Udemy about 
 
-.....
+<img  src = "C:\Users\Sergio Ferreira\Desktop\testes\curso">
 
 ## Tech Stack
 
