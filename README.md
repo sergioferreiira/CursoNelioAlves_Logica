@@ -6,7 +6,9 @@
 
 # Course from Udemy about 
 
-<img  src = "C:\Users\Sergio Ferreira\Desktop\testes\curso">
+<p align="center">
+    <img src="https://github.com/sergioferreiira/LogicaCom_C/blob/main/img/curso.png" alt="Image Example" width="400px">
+</p>
 
 ## Tech Stack
 
