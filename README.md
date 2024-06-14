@@ -36,3 +36,14 @@ Learning the logic about these languages and improve one step more to reach my m
 - While / For / Do-While
 - Vector / Matriz
 - Exercises using these teachings
+
+
+# ![My Skills](https://skillicons.dev/icons?i=csharp)
+
+
+
+- Data Types
+- Input / Output
+- While / For / Do-While
+- Vector / Matriz
+- Exercises using these teachings
