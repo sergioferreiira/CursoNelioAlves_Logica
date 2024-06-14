@@ -38,7 +38,7 @@ Learning the logic about these languages and improve one step more to reach my m
 - Exercises using these teachings
 
 
-# ![My Skills](https://skillicons.dev/icons?i=csharp)
+# ![My Skills](https://skillicons.dev/icons?i=cs)
 
 
 
