@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("exerciciosComMatrizes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e751e0fb54bf37e5e7db994c5aaf307e5a27b885")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10c23b1012b9b5f8ccca6cc78696cf0fd22eea9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("exerciciosComMatrizes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("exerciciosComMatrizes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
