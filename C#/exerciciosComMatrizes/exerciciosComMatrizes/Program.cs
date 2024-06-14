@@ -95,4 +95,39 @@ for (int i = 0; i < m; i++)
 
 */
 
+/*
+ * 
+ * Problema "negativos_matriz"
+ * 
+int m, n;
+
+Console.Write("Linhas: ");
+m = int.Parse(Console.ReadLine());
+Console.Write("Colunas: ");
+n = int.Parse(Console.ReadLine());
+
+int[,] vet = new int[m, n];
+
+for (int i = 0; i < m; i++)
+{
+    for (int j = 0; j < n; j++)
+    {
+        Console.WriteLine($"Elemento[{i},{j}]");
+        vet[i, j] = int.Parse(Console.ReadLine());
+    }
+}
+
+Console.WriteLine("Valores negativos");
+for (int i = 0; i < m; i++)
+{
+    for(int j = 0; j < n; j++)
+    {
+        if (vet[i,j] < 0)
+        {
+            Console.WriteLine(vet[i, j]);
+        }
+    }
+}
+
+*/
 
