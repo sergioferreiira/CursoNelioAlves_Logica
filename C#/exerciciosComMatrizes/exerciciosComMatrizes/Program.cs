@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Globalization;
 
+CultureInfo CI = CultureInfo.InvariantCulture;
 /*
  *  acima_diagonal
     
@@ -163,3 +165,166 @@ for (int i = 0;i < m; i++)
 }
 
 */
+
+/*
+ * 
+ * Problema "soma_matrizes" 
+
+ * 
+
+int m, n;
+
+Console.WriteLine("Quantas linhas vai ter cada matriz? ");
+m = int.Parse(Console.ReadLine());
+Console.WriteLine("Quantas colunas vai ter cada matriz? ");
+n = int.Parse(Console.ReadLine());
+
+int[,] vet = new int[m, n];
+int[,] vet2 = new int[m, n];
+int[,] vet3 = new int[m, n];
+
+
+Console.WriteLine("Digite os valores da matriz A");
+for (int i = 0; i < m; i++)
+{
+    for (int j = 0; j < n; j++)
+    {
+        Console.WriteLine($"Elemento[{i},{j}]");
+        vet[i,j] = int.Parse(Console.ReadLine());
+    }
+}
+
+
+Console.WriteLine("Digite os valores da matriz B");
+for (int i = 0; i < m; i++)
+{
+    for (int j = 0; j < n; j++)
+    {
+        Console.WriteLine($"Elemento[{i},{j}]");
+        vet2[i, j] = int.Parse(Console.ReadLine());
+    }
+}
+
+Console.WriteLine("Matriz soma");
+for (int i = 0;i < m; i++)
+{
+    for (int j = 0; j < n; j++)
+    {
+        vet3[i,j] = vet[i,j];
+    }
+}
+
+for (int i =0; i < m; i++)
+{
+    for(int j = 0;j < n; j++)
+    {
+        vet3[i,j] = vet3[i,j] + vet2[i,j];
+    }
+}
+
+for (int i = 0;i < m; i++)
+{
+    for(int j = 0;j < n; j++)
+    {
+        Console.Write(vet3[i,j] + " ");
+    }
+    Console.WriteLine(" ");
+}
+
+*/
+
+Action jump = () => Console.WriteLine(" ");
+
+int m, l, c;
+
+Console.Write("Qual a ordem da matriz? ");
+m = int.Parse(Console.ReadLine());
+
+
+float[,] vet = new float[m,m];
+
+float positives = 0;
+
+for(int i = 0; i < m; i++)
+{
+    for(int j = 0; j < m; j++)
+    {
+        Console.Write($"Elemento [{i},{j}] ");
+        vet[i, j] = float.Parse(Console.ReadLine());
+    }
+}
+
+for (int i = 0; i < m; i++)
+{
+    for (int j = 0; j < m; j++)
+    {
+        if (vet[i, j] > 0)
+        {
+            positives = positives + vet[i, j];
+        }
+    }
+}
+
+Console.WriteLine("SOMA DOS POSITIVOS: " + positives.ToString("F1" , CI));
+
+jump();
+
+Console.WriteLine("Escolha uma linha: ");
+l = int.Parse(Console.ReadLine());
+
+for (int i = l ;i == l; i++)
+{
+    Console.Write("Linha escolhida: ");
+    for (int j = 0; j < m; j++)
+    {
+        Console.Write(vet[i,j].ToString("F1", CI) + " ");
+    }
+}
+
+jump();
+jump();
+Console.WriteLine("Escolha uma coluna: ");
+c = int.Parse(Console.ReadLine());
+
+
+Console.Write("Coluna escolhida: ");
+for (int i = 0; i < m; i++)
+{
+    for (int j = c; j == c; j++)
+    {
+        Console.Write(vet[i, j].ToString("F1", CI) + " ");
+    }
+}
+
+jump();
+jump();
+
+Console.Write("Diagonal principal: ");
+for (int i = 0; i < m; i++)
+{
+    for (int j = i; j == i; j++)
+    {
+        Console.Write(vet[i, j].ToString("F1" , CI) + " ");
+    }
+}
+
+jump();
+jump();
+
+Console.WriteLine("Matriz alterada: ");
+
+float squad = 0;
+
+for (int i = 0;i < m; i++)
+{
+    for(int j = 0; j < m; j++)
+    {
+        if (vet[i, j] < 0)
+        {
+            squad = vet[i,j] * vet[i,j];
+            vet[i,j] = squad;
+        }
+        Console.Write(vet[i, j].ToString("F1", CI) + " ");
+    }
+    Console.WriteLine(" ");
+}

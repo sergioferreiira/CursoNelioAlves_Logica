@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.gitgnore",
-    "\\secret"
+    "\\C#",
+    "\\C#\\exerciciosComMatrizes",
+    "\\C#\\exerciciosComMatrizes\\exerciciosComMatrizes"
   ],
-  "SelectedNode": "\\.gitgnore",
+  "SelectedNode": "\\C#\\exerciciosComMatrizes\\exerciciosComMatrizes\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
