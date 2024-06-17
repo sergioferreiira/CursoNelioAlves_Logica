@@ -131,3 +131,35 @@ for (int i = 0; i < m; i++)
 
 */
 
+/*
+ * 
+ * Problema "cada_linha" 
+ * 
+
+int m, l= 0;
+
+Console.WriteLine("Qual a ordem da matriz");
+m = int.Parse(Console.ReadLine());
+
+int[,] vet = new int[m,m];
+
+for (int i = 0; i < m; i++)
+{
+    for (int j = 0; j < m; j++)
+    {
+        Console.Write($"Elemento[{i},{j}]: ");
+        vet[i,j] = int.Parse(Console.ReadLine());
+    }
+}
+
+for (int i = 0;i < m; i++)
+{
+    for(int j = 0;  j < m; j++)
+    {
+        l = l + vet[i,j];
+    }
+    Console.WriteLine(l);
+    l = 0;
+}
+
+*/
