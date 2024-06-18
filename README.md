@@ -26,9 +26,18 @@
 
 Learning the logic about these languages and improve one step more to reach my main goal what is turn a developer.
 
+<br>  
+
+## Why i have been maked this repository
+
+- For record what i have seen and reuse if necessary
+- For take notes 
+- For show my progress 
+- And for to have a prove that i make it and i improve and learn
+
+<br>  
 
 # ![My Skills](https://skillicons.dev/icons?i=c)
-
 
 
 - Data Types
@@ -37,10 +46,19 @@ Learning the logic about these languages and improve one step more to reach my m
 - Vector / Matriz
 - Exercises using these teachings
 
+<br>  
 
 # ![My Skills](https://skillicons.dev/icons?i=cs)
 
+- Data Types
+- Input / Output
+- While / For / Do-While
+- Vector / Matriz
+- Exercises using these teachings
 
+<br>  
+
+# ![My Skills](https://skillicons.dev/icons?i=java)
 
 - Data Types
 - Input / Output
