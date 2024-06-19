@@ -26,10 +26,6 @@ public class Exercises {
         	System.out.print(vet[i] + " ");
         }
         
-        
-        
-
-        
         sc.close();
     }
 }
